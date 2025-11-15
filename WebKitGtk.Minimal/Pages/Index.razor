@@ -1,0 +1,15 @@
+@page "/"
+
+
+<label>@labelText</label>
+
+
+@code {
+    
+    private string labelText = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+            labelText = "hello, world";
+    }
+}
