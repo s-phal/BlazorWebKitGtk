@@ -3,7 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
 using System.Runtime.Versioning;
-using WebKitGtk.Bootstrap.Data;
 using System.Threading.Tasks;
 
 using System.Threading;
@@ -33,7 +32,7 @@ internal class Program : IHostedService
 				HostPath = "wwwroot/index.html"
 			}
 		)
-		.AddSingleton<WeatherForecastService>()
+
 		.AddHostedService<Program>();
 
 		using var host = builder.Build();

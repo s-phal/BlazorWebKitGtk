@@ -1,17 +1,4 @@
 @page "/"
 
-@using System.Diagnostics
+<h2>Welcome to Blazor Hybrid for Linux!</h2>
 
-<h1>Welcome to Blazor Hybrid for Linux!</h1>
-
-<p>Application took @StartupTime ms to start</p>
-
-@code {
-    string StartupTime
-    {
-        get
-        {
-            return (DateTime.Now - Process.GetCurrentProcess().StartTime).TotalMilliseconds.ToString("#,0");
-        }
-    }
-}

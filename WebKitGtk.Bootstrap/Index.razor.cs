@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 
-namespace WebKitGtk.Minimal.Pages
+
+namespace WebKitGtk.Bootstrap.Pages
 {
     public partial class Index : ComponentBase
     {
