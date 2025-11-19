@@ -5,6 +5,6 @@ namespace WebKitGtk.Minimal.Pages
 {
     public partial class Index : ComponentBase
     {
-        private string labelText = "is this it?";
+
     }
 }
